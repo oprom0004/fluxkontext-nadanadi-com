@@ -14,22 +14,22 @@ export default function Footer() {
               <span className="text-white text-lg font-bold">FLUX Kontext</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Editing professionale di immagini AI con trasformazioni consapevoli del contesto.
+              Édition professionnelle d'images IA avec transformations contextuelles.
             </p>
           </div>
 
           {/* Product */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Prodotto</h3>
+            <h3 className="text-white font-semibold mb-4">Produit</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#features" className="text-gray-400 hover:text-white transition text-sm">
-                  Caratteristiche
+                  Fonctionnalités
                 </Link>
               </li>
               <li>
                 <Link href="#pricing" className="text-gray-400 hover:text-white transition text-sm">
-                  Prezzi
+                  Tarifs
                 </Link>
               </li>
               <li>
@@ -42,11 +42,11 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Risorse</h3>
+            <h3 className="text-white font-semibold mb-4">Ressources</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#tutorial" className="text-gray-400 hover:text-white transition text-sm">
-                  Tutorial
+                  Tutoriel
                 </Link>
               </li>
               <li>
@@ -56,12 +56,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="#community" className="text-gray-400 hover:text-white transition text-sm">
-                  Comunità
+                  Communauté
                 </Link>
               </li>
               <li>
                 <Link href="#support" className="text-gray-400 hover:text-white transition text-sm">
-                  Supporto
+                  Support
                 </Link>
               </li>
             </ul>
@@ -69,26 +69,26 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Azienda</h3>
+            <h3 className="text-white font-semibold mb-4">Entreprise</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#about" className="text-gray-400 hover:text-white transition text-sm">
-                  Chi Siamo
+                  À Propos
                 </Link>
               </li>
               <li>
                 <Link href="#careers" className="text-gray-400 hover:text-white transition text-sm">
-                  Carriere
+                  Carrières
                 </Link>
               </li>
               <li>
                 <Link href="#privacy" className="text-gray-400 hover:text-white transition text-sm">
-                  Privacy
+                  Confidentialité
                 </Link>
               </li>
               <li>
                 <Link href="#terms" className="text-gray-400 hover:text-white transition text-sm">
-                  Termini
+                  Conditions
                 </Link>
               </li>
             </ul>
@@ -98,7 +98,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2025 FLUX Kontext. Tutti i diritti riservati.
+            © 2025 FLUX Kontext. Tous droits réservés.
           </p>
           
           {/* Social Links */}
@@ -129,15 +129,15 @@ export default function Footer() {
         {/* Additional Links */}
         <div className="mt-8 text-center">
           <p className="text-gray-500 text-sm">
-            Powered by Black Forest Labs • Parte della famiglia FLUX.1
+            Propulsé par Black Forest Labs • Partie de la famille FLUX.1
           </p>
           <div className="mt-4">
             <Link 
-              href="https://flux1kontextai.com/it"
+              href="https://flux1kontextai.com/fr"
               target="_blank"
               className="text-purple-400 hover:text-purple-300 transition text-sm"
             >
-              Prova FLUX Kontext Gratis →
+              Essayer FLUX Kontext Gratuitement →
             </Link>
           </div>
         </div>

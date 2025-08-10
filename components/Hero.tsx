@@ -21,20 +21,20 @@ export default function Hero() {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#features" className="text-gray-300 hover:text-white transition">
-              Caratteristiche
+              Fonctionnalités
             </Link>
             <Link href="#examples" className="text-gray-300 hover:text-white transition">
-              Esempi
+              Exemples
             </Link>
             <Link href="#pricing" className="text-gray-300 hover:text-white transition">
-              Prezzi
+              Tarifs
             </Link>
             <Link 
-              href="https://flux1kontextai.com/it" 
+              href="https://flux1kontextai.com/fr" 
               target="_blank"
               className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:opacity-90 transition"
             >
-              Inizia Gratis
+              Commencer Gratuitement
             </Link>
           </div>
 
@@ -58,20 +58,20 @@ export default function Hero() {
           <div className="md:hidden absolute top-full left-0 right-0 bg-gray-900/95 backdrop-blur-lg border-t border-gray-800">
             <div className="px-6 py-4 space-y-4">
               <Link href="#features" className="block text-gray-300 hover:text-white transition">
-                Caratteristiche
+                Fonctionnalités
               </Link>
               <Link href="#examples" className="block text-gray-300 hover:text-white transition">
-                Esempi
+                Exemples
               </Link>
               <Link href="#pricing" className="block text-gray-300 hover:text-white transition">
-                Prezzi
+                Tarifs
               </Link>
               <Link 
-                href="https://flux1kontextai.com/it" 
+                href="https://flux1kontextai.com/fr" 
                 target="_blank"
                 className="block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2 rounded-full hover:opacity-90 transition text-center"
               >
-                Inizia Gratis
+                Commencer Gratuitement
               </Link>
             </div>
           </div>
@@ -86,33 +86,33 @@ export default function Hero() {
               FLUX Kontext
             </span>
             <br />
-            Editing di Immagini AI Gratuito
+            Édition d'Images IA Gratuite
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto.
+            Édition professionnelle d'images IA avec transfert de style et transformations contextuelles.
           </p>
 
           <div className="flex justify-center mb-12">
             <Link 
-              href="https://flux1kontextai.com/it"
+              href="https://flux1kontextai.com/fr"
               target="_blank"
               className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition transform hover:scale-105"
             >
-              Prova FLUX Kontext Gratis
+              Essayer FLUX Kontext Gratuitement
             </Link>
           </div>
 
           {/* Feature Pills */}
           <div className="flex flex-wrap gap-3 justify-center">
             <span className="px-4 py-2 bg-gray-800/50 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-gray-700">
-              ✨ Nessuna registrazione richiesta
+              ✨ Aucune inscription requise
             </span>
             <span className="px-4 py-2 bg-gray-800/50 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-gray-700">
-              🚀 Risultati istantanei
+              🚀 Résultats instantanés
             </span>
             <span className="px-4 py-2 bg-gray-800/50 backdrop-blur-sm rounded-full text-sm text-gray-300 border border-gray-700">
-              🎨 Qualità professionale
+              🎨 Qualité professionnelle
             </span>
           </div>
         </div>

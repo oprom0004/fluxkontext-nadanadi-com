@@ -6,49 +6,41 @@ import StructuredData from "@/components/StructuredData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nadanadi.com'),
+  metadataBase: new URL("https://nadanadi.com"),
   title: {
-    default: "FLUX Kontext - Editing di Immagini AI Gratuito | Trasferimento di Stile e Trasformazioni",
-    template: "%s | FLUX Kontext Italia"
+    default: "FLUX Kontext - Édition d'Images IA Gratuite | Transformations Instantanées",
+    template: "%s | FLUX Kontext France"
   },
-  description: "FLUX Kontext offre editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto. Prova gratuitamente il miglior modello di editing AI.",
-  keywords: "FLUX Kontext, editing immagini AI, trasferimento stile, trasformazione immagini, AI gratuito, Black Forest Labs, FLUX.1, intelligenza artificiale, photo editing, image transformation, style transfer, AI art, generative AI, machine learning, deep learning, neural networks, computer vision, image processing, foto ritocco, elaborazione immagini, arte digitale",
+  description: "Édition professionnelle d'images IA avec transfert de style et transformations contextuelles. Aucune inscription requise. Essayez FLUX Kontext gratuitement!",
+  keywords: "FLUX Kontext, édition images IA, transfert de style, transformation d'images, IA gratuite, édition photo, intelligence artificielle, traitement d'images, photos IA, édition professionnelle",
   authors: [{ name: "FLUX Kontext Team" }],
-  creator: "Black Forest Labs",
-  publisher: "FLUX Kontext Italia",
+  creator: "FLUX Kontext",
+  publisher: "FLUX Kontext",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "FLUX Kontext - Editing di Immagini AI Gratuito",
-    description: "Editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto.",
+    title: "FLUX Kontext - Édition d'Images IA Gratuite",
+    description: "Édition professionnelle d'images IA avec transfert de style et transformations contextuelles.",
     url: "https://nadanadi.com",
-    siteName: "FLUX Kontext Italia",
+    siteName: "FLUX Kontext France",
     images: [
       {
         url: "https://nadanadi.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "FLUX Kontext - AI Image Editing",
-        type: "image/jpeg",
+        alt: "FLUX Kontext - Édition d'Images IA",
       },
-      {
-        url: "https://nadanadi.com/og-image-square.jpg",
-        width: 1200,
-        height: 1200,
-        alt: "FLUX Kontext Logo",
-        type: "image/jpeg",
-      }
     ],
-    locale: "it_IT",
+    locale: "fr_FR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FLUX Kontext - Editing di Immagini AI Gratuito",
-    description: "Editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto.",
+    title: "FLUX Kontext - Édition d'Images IA Gratuite",
+    description: "Édition professionnelle d'images IA avec transfert de style et transformations contextuelles.",
     images: ["https://nadanadi.com/og-image.jpg"],
     creator: "@fluxkontext",
     site: "@fluxkontext",
@@ -68,7 +60,7 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://nadanadi.com",
-    // 这是一个纯意大利语网站，没有其他语言版本
+    // 这是一个纯法语网站，没有其他语言版本
     // 其他语言的用户应访问主站 flux1kontextai.com
   },
   verification: {
@@ -88,7 +80,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="it" prefix="og: http://ogp.me/ns#">
+    <html lang="fr" prefix="og: http://ogp.me/ns#">
       <head>
         {/* Favicons */}
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -97,6 +89,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/icon.svg" color="#a855f7" />
+        <link rel="canonical" href="https://nadanadi.com" />
         <meta name="msapplication-TileColor" content="#a855f7" />
         <meta name="theme-color" content="#030712" />
         

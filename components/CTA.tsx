@@ -14,32 +14,32 @@ export default function CTA() {
 
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-              Il Futuro dell'Editing di Immagini
+              L'Avenir de l'Édition d'Images
             </h2>
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Unisciti a migliaia di creativi e sviluppatori che utilizzano FLUX Kontext per 
-              trasformare le loro immagini con l'intelligenza artificiale.
+              Rejoignez des milliers de créatifs et de développeurs qui utilisent FLUX Kontext pour 
+              transformer leurs images avec l'intelligence artificielle.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="https://flux1kontextai.com/it"
+                href="https://flux1kontextai.com/fr"
                 target="_blank"
                 className="bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transition transform hover:scale-105"
               >
-                Inizia Gratuitamente
+                Commencer Gratuitement
               </Link>
               <Link 
                 href="https://flux1kontextai.com"
                 target="_blank"
                 className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white/10 transition"
               >
-                Vedi Prezzi
+                Voir les Tarifs
               </Link>
             </div>
 
             <p className="text-white/80 mt-8 text-sm">
-              Nessuna carta di credito richiesta • Accesso immediato • Cancella in qualsiasi momento
+              Aucune carte de crédit requise • Accès immédiat • Annulez à tout moment
             </p>
           </div>
         </div>
@@ -48,15 +48,15 @@ export default function CTA() {
         <div className="grid grid-cols-3 gap-8 mt-16">
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">10M+</div>
-            <div className="text-gray-400">Immagini Elaborate</div>
+            <div className="text-gray-400">Images Traitées</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">50K+</div>
-            <div className="text-gray-400">Utenti Attivi</div>
+            <div className="text-gray-400">Utilisateurs Actifs</div>
           </div>
           <div className="text-center">
             <div className="text-3xl md:text-4xl font-bold text-white mb-2">99.9%</div>
-            <div className="text-gray-400">Uptime</div>
+            <div className="text-gray-400">Disponibilité</div>
           </div>
         </div>
       </div>

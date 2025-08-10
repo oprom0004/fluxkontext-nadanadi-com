@@ -6,9 +6,9 @@ export default function StructuredData() {
         "@type": "WebSite",
         "@id": "https://nadanadi.com/#website",
         "url": "https://nadanadi.com/",
-        "name": "FLUX Kontext Italia",
-        "description": "Editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto",
-        "inLanguage": "it-IT",
+        "name": "FLUX Kontext France",
+        "description": "Édition professionnelle d'images IA avec transfert de style et transformations contextuelles",
+        "inLanguage": "fr-FR",
         "publisher": {
           "@id": "https://nadanadi.com/#organization"
         },
@@ -43,15 +43,15 @@ export default function StructuredData() {
         "@type": "WebPage",
         "@id": "https://nadanadi.com/#webpage",
         "url": "https://nadanadi.com/",
-        "name": "FLUX Kontext - Editing di Immagini AI Gratuito | Trasferimento di Stile",
+        "name": "FLUX Kontext - Édition d'Images IA Gratuite | Transfert de Style",
         "isPartOf": {
           "@id": "https://nadanadi.com/#website"
         },
         "about": {
           "@id": "https://nadanadi.com/#organization"
         },
-        "description": "FLUX Kontext offre editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto. Prova gratuitamente.",
-        "inLanguage": "it-IT",
+        "description": "FLUX Kontext offre une édition professionnelle d'images IA avec transfert de style et transformations contextuelles. Essayez gratuitement.",
+        "inLanguage": "fr-FR",
         "primaryImageOfPage": {
           "@type": "ImageObject",
           "url": "https://nadanadi.com/og-image.jpg",
@@ -63,7 +63,7 @@ export default function StructuredData() {
         "@type": "SoftwareApplication",
         "@id": "https://nadanadi.com/#software",
         "name": "FLUX Kontext",
-        "description": "Software di editing immagini basato su AI per trasformazioni professionali",
+        "description": "Logiciel d'édition d'images basé sur l'IA pour des transformations professionnelles",
         "applicationCategory": "DesignApplication",
         "operatingSystem": "Web",
         "offers": {
@@ -81,12 +81,12 @@ export default function StructuredData() {
           "worstRating": "1"
         },
         "featureList": [
-          "Trasferimento di stile AI",
-          "Editing consapevole del contesto",
-          "Elaborazione in tempo reale",
-          "API per sviluppatori",
-          "Supporto multilingua",
-          "Qualità professionale"
+          "Transfert de style IA",
+          "Édition contextuelle",
+          "Traitement en temps réel",
+          "API pour développeurs",
+          "Support multilingue",
+          "Qualité professionnelle"
         ]
       },
       {
@@ -94,26 +94,26 @@ export default function StructuredData() {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Cos'è FLUX Kontext?",
+            "name": "Qu'est-ce que FLUX Kontext?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "FLUX Kontext è un modello AI avanzato per l'editing di immagini che utilizza prompt di testo per trasformare e modificare immagini con risultati professionali."
+              "text": "FLUX Kontext est un modèle IA avancé pour l'édition d'images qui utilise des prompts textuels pour transformer et modifier des images avec des résultats professionnels."
             }
           },
           {
             "@type": "Question",
-            "name": "FLUX Kontext è gratuito?",
+            "name": "FLUX Kontext est-il gratuit?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Sì, FLUX Kontext offre una versione gratuita (dev) per sperimentazione e uso personale, oltre a versioni pro e max per uso commerciale."
+              "text": "Oui, FLUX Kontext offre une version gratuite (dev) pour l'expérimentation et l'usage personnel, ainsi que des versions pro et max pour un usage commercial."
             }
           },
           {
             "@type": "Question",
-            "name": "Quali trasformazioni posso fare con FLUX Kontext?",
+            "name": "Quelles transformations puis-je faire avec FLUX Kontext?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Puoi fare trasferimento di stile, modificare attività nelle immagini, sostituire testo, convertire foto in schizzi o pitture, e molto altro."
+              "text": "Vous pouvez faire du transfert de style, modifier les activités dans les images, remplacer du texte, convertir des photos en croquis ou peintures, et bien plus encore."
             }
           }
         ]

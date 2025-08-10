@@ -9,43 +9,43 @@ export default function Examples() {
   const examples = [
     {
       id: 1,
-      title: 'Trasferimento di Stile',
-      description: 'Trasforma le tue foto in opere d\'arte con stili artistici diversi',
+      title: 'Transfert de Style',
+      description: 'Transformez vos photos en œuvres d\'art avec différents styles artistiques',
       before: '/input_image.webp',
       after: '/transform_to_oil_painting_with_visible_brushstrokes_thick_paint_texture_and_rich_color_depth.webp',
-      prompt: 'Trasforma in pittura a olio con pennellate visibili, texture di vernice spessa e profondità di colore ricca'
+      prompt: 'Transformer en peinture à l\'huile avec des coups de pinceau visibles, texture de peinture épaisse et profondeur de couleur riche'
     },
     {
       id: 2,
-      title: 'Modifica Attività',
-      description: 'Cambia cosa stanno facendo le persone nelle immagini',
+      title: 'Modification d\'Activité',
+      description: 'Changez ce que font les personnes dans les images',
       before: '/this_character_is_now_picking_up_weeds_in_a_garden.webp',
       after: '/restyle_to_claymation_style.webp',
-      prompt: 'Questo personaggio ora sta raccogliendo erbacce in un giardino'
+      prompt: 'Ce personnage ramasse maintenant des mauvaises herbes dans un jardin'
     },
     {
       id: 3,
-      title: 'Sostituzione Testo',
-      description: 'Sostituisci il testo nelle immagini mantenendo lo stile',
+      title: 'Remplacement de Texte',
+      description: 'Remplacez le texte dans les images en conservant le style',
       before: '/input_image (1).webp',
       after: '/replace_joy_by_BFL.webp',
-      prompt: 'Sostituisci "JOY" con "BFL"'
+      prompt: 'Remplacer "JOY" par "BFL"'
     },
     {
       id: 4,
-      title: 'Conversione Artistica',
-      description: 'Converti foto in schizzi, dipinti o altri stili artistici',
+      title: 'Conversion Artistique',
+      description: 'Convertissez des photos en croquis, peintures ou autres styles artistiques',
       before: '/input_image.webp',
       after: '/convert_to_pencil_sketch_with_natural_graphite_lines_cross-hatching_and_visible_paper_texture.webp',
-      prompt: 'Converti in schizzo a matita con linee di grafite naturali, tratteggio incrociato e texture di carta visibile'
+      prompt: 'Convertir en croquis au crayon avec des lignes de graphite naturelles, hachures croisées et texture de papier visible'
     },
     {
       id: 5,
-      title: 'Restyling Creativo',
-      description: 'Applica stili creativi e unici alle tue immagini',
+      title: 'Restylage Créatif',
+      description: 'Appliquez des styles créatifs et uniques à vos images',
       before: '/input_image (2).webp',
       after: '/restyle_to_claymation_style.webp',
-      prompt: 'Ridisegna in stile claymation'
+      prompt: 'Restyler en style claymation'
     }
   ]
 
@@ -54,10 +54,10 @@ export default function Examples() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Prova FLUX Kontext Live
+            Essayez FLUX Kontext en Direct
           </h2>
           <p className="text-xl text-gray-300">
-            Trasformazioni di esempio che mostrano la potenza di FLUX Kontext
+            Transformations d'exemple qui montrent la puissance de FLUX Kontext
           </p>
         </div>
 
@@ -83,11 +83,11 @@ export default function Examples() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Before */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-gray-300">Prima</h3>
+              <h3 className="text-lg font-semibold text-gray-300">Avant</h3>
               <div className="relative aspect-video bg-gray-700 rounded-lg overflow-hidden">
                 <Image
                   src={examples[activeExample].before}
-                  alt="Immagine originale"
+                  alt="Image originale"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -97,11 +97,11 @@ export default function Examples() {
 
             {/* After */}
             <div className="space-y-4">
-              <h3 className="text-lg font-semibold text-gray-300">Dopo</h3>
+              <h3 className="text-lg font-semibold text-gray-300">Après</h3>
               <div className="relative aspect-video bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-lg overflow-hidden border border-purple-500/30">
                 <Image
                   src={examples[activeExample].after}
-                  alt="Immagine trasformata"
+                  alt="Image transformée"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -118,18 +118,18 @@ export default function Examples() {
             </div>
             <div className="p-4 bg-gray-900/50 rounded-lg">
               <p className="text-gray-300">
-                <span className="text-purple-400 font-semibold">Descrizione:</span> {examples[activeExample].description}
+                <span className="text-purple-400 font-semibold">Description:</span> {examples[activeExample].description}
               </p>
             </div>
           </div>
 
           <div className="text-center mt-8">
             <a 
-              href="https://flux1kontextai.com/it"
+              href="https://flux1kontextai.com/fr"
               target="_blank"
               className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-3 rounded-full hover:opacity-90 transition"
             >
-              Prova Questo Esempio
+              Essayer Cet Exemple
             </a>
           </div>
         </div>

@@ -4,12 +4,12 @@ export default function Performance() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
-            Incontra FLUX.1 Kontext
+            Découvrez FLUX.1 Kontext
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            L'ultima aggiunta alla famiglia FLUX.1 di Black Forest Labs. FLUX.1 Kontext è il modello 
-            migliore della categoria per l'editing di immagini utilizzando prompt di testo, offrendo 
-            risultati accurati e brillanti che superano i concorrenti.
+            Le dernier ajout à la famille FLUX.1 de Black Forest Labs. FLUX.1 Kontext est le modèle 
+            de référence pour l'édition d'images utilisant des prompts textuels, offrant 
+            des résultats précis et brillants qui surpassent la concurrence.
           </p>
         </div>
 
@@ -21,21 +21,21 @@ export default function Performance() {
               <h3 className="text-2xl font-bold text-white">FLUX.1 Kontext [dev]</h3>
             </div>
             <p className="text-gray-300 mb-6">
-              Versione di sviluppo gratuita per sperimentazione e prototipazione rapida. Perfetta per 
-              sviluppatori e creativi.
+              Version de développement gratuite pour l'expérimentation et le prototypage rapide. Parfaite pour 
+              les développeurs et les créatifs.
             </p>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Accesso API illimitato
+                Accès API illimité
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Elaborazione veloce
+                Traitement rapide
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Uso commerciale
+                Usage commercial
               </li>
             </ul>
           </div>
@@ -44,28 +44,28 @@ export default function Performance() {
           <div className="bg-gradient-to-br from-purple-900/30 to-pink-900/30 rounded-2xl p-8 border-2 border-purple-500 relative">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
               <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                PIÙ POPOLARE
+                PLUS POPULAIRE
               </span>
             </div>
             <div className="flex items-center mb-4">
               <h3 className="text-2xl font-bold text-white">FLUX.1 Kontext [pro]</h3>
             </div>
             <p className="text-gray-300 mb-6">
-              Versione professionale con prestazioni migliorate e funzionalità avanzate per uso 
-              commerciale.
+              Version professionnelle avec performances améliorées et fonctionnalités avancées pour usage 
+              commercial.
             </p>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Qualità superiore
+                Qualité supérieure
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Elaborazione prioritaria
+                Traitement prioritaire
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Supporto dedicato
+                Support dédié
               </li>
             </ul>
           </div>
@@ -76,20 +76,20 @@ export default function Performance() {
               <h3 className="text-2xl font-bold text-white">FLUX.1 Kontext [max]</h3>
             </div>
             <p className="text-gray-300 mb-6">
-              Massime prestazioni e qualità per applicazioni enterprise e produzione su larga scala.
+              Performances et qualité maximales pour les applications d'entreprise et la production à grande échelle.
             </p>
             <ul className="space-y-3 text-gray-400">
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Massima risoluzione
+                Résolution maximale
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                Elaborazione batch
+                Traitement par lots
               </li>
               <li className="flex items-start">
                 <span className="text-green-400 mr-2">✓</span>
-                SLA garantito
+                SLA garanti
               </li>
             </ul>
           </div>
@@ -97,11 +97,11 @@ export default function Performance() {
 
         <div className="text-center mt-12">
           <Link 
-            href="https://flux1kontextai.com/it"
+            href="https://flux1kontextai.com/fr"
             target="_blank"
             className="inline-flex items-center text-purple-400 hover:text-purple-300 transition"
           >
-            Confronta tutte le versioni
+            Comparer toutes les versions
             <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
