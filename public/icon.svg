@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f97316;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="256" cy="256" r="240" fill="#030712" stroke="url(#gradient)" stroke-width="8"/>
+  
+  <!-- 内部渐变背景 -->
+  <circle cx="256" cy="256" r="220" fill="url(#gradient)" opacity="0.1"/>
+  
+  <!-- FK 字母组合 -->
+  <g filter="url(#glow)">
+    <!-- F -->
+    <path d="M 140 160 L 140 352 L 180 352 L 180 280 L 240 280 L 240 240 L 180 240 L 180 200 L 260 200 L 260 160 L 140 160 Z" 
+          fill="white" opacity="0.95"/>
+    
+    <!-- K -->
+    <path d="M 280 160 L 280 352 L 320 352 L 320 270 L 360 320 L 360 352 L 400 352 L 350 280 L 400 160 L 360 160 L 320 230 L 320 160 L 280 160 Z" 
+          fill="white" opacity="0.95"/>
+  </g>
+  
+  <!-- 装饰性元素 -->
+  <circle cx="380" cy="380" r="20" fill="url(#gradient)" opacity="0.6"/>
+  <circle cx="132" cy="132" r="15" fill="url(#gradient)" opacity="0.5"/>
+  <circle cx="400" cy="150" r="10" fill="url(#gradient)" opacity="0.4"/>
+</svg>

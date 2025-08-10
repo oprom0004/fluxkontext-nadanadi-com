@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "FLUX Kontext Italia",
+  "name_for_model": "flux_kontext",
+  "description_for_human": "Editing professionale di immagini AI con trasferimento di stile e trasformazioni consapevoli del contesto.",
+  "description_for_model": "FLUX Kontext is an AI-powered image editing tool that allows users to transform images using text prompts. It supports style transfer, context-aware editing, text replacement, and various artistic transformations. The service is available in Italian and offers free access with professional quality results.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://nadanadi.com/openapi.yaml"
+  },
+  "logo_url": "https://nadanadi.com/logo.png",
+  "contact_email": "support@nadanadi.com",
+  "legal_info_url": "https://nadanadi.com/legal"
+}
