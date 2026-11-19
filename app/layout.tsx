@@ -102,6 +102,7 @@ export default function RootLayout({
         
         {/* Structured Data */}
         <StructuredData />
+        <script defer src="https://umamimy.vercel.app/script.js" data-website-id="092bb1cd-8fc2-4a1d-b0e3-0637783cb533" />
       </head>
       <body className={`${inter.className} antialiased`}>
         {children}
